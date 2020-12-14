@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leitura.nfe.importacao", "l
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repository.importacao", "repository.importacao\repository.importacao.csproj", "{E21A4E60-1773-48CA-BC92-8B320EBF17FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "console.importacao", "..\console.importacao\console.importacao.csproj", "{CF8D5FAC-910B-471C-B60B-B1BEAC833247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "console.importacao", "console.importacao\console.importacao.csproj", "{B486D2A5-55AE-4E9B-B3BC-0A5F6AE0450A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{E21A4E60-1773-48CA-BC92-8B320EBF17FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E21A4E60-1773-48CA-BC92-8B320EBF17FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E21A4E60-1773-48CA-BC92-8B320EBF17FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF8D5FAC-910B-471C-B60B-B1BEAC833247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF8D5FAC-910B-471C-B60B-B1BEAC833247}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF8D5FAC-910B-471C-B60B-B1BEAC833247}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF8D5FAC-910B-471C-B60B-B1BEAC833247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B486D2A5-55AE-4E9B-B3BC-0A5F6AE0450A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B486D2A5-55AE-4E9B-B3BC-0A5F6AE0450A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B486D2A5-55AE-4E9B-B3BC-0A5F6AE0450A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B486D2A5-55AE-4E9B-B3BC-0A5F6AE0450A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
