@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\biblioteca.importacao\biblioteca.importacao.csproj" />
+    <ProjectReference Include="..\entity.sql.importacao\entity.sql.importacao.csproj" />
+    <ProjectReference Include="..\repository.importacao\repository.importacao.csproj" />
+  </ItemGroup>
+
+</Project>
