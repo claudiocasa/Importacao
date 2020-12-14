@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dtb_Importacao.mdf" />
+    <None Remove="dtb_Importacao_log.ldf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\biblioteca.importacao\biblioteca.importacao.csproj" />
+    <ProjectReference Include="..\entity.sql.importacao\entity.sql.importacao.csproj" />
+    <ProjectReference Include="..\leitura.nfe.importacao\leitura.nfe.importacao.csproj" />
+    <ProjectReference Include="..\repository.importacao\repository.importacao.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NFe15191214160456000123650010001934431309290735.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
